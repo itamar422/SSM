@@ -1,0 +1,177 @@
+========================================================================
+  MATRIX A1 — CONTINUOUS × CONTINUOUS
+  Variables: exposure_index, pcl_score, dass_anx_score, dass_dep_score, dass_str_score, dass_total_score, ghq_score, psqi_total, isi_total
+========================================================================
+
+────────────────────────────────────────────────────────────────────────
+  A1a — Pearson r  (primary coefficient for continuous variables)
+  Significance: * p<.05  ** p<.01  *** p<.001
+────────────────────────────────────────────────────────────────────────
+                     Exposure Index PCL-5 (PTSD) DASS Anxiety DASS Depression DASS Stress DASS Total        GHQ PSQI (Sleep Quality) ISI (Insomnia)
+Exposure Index                  —      +0.250**     +0.219*         +0.144      +0.263**   +0.234*    +0.166               +0.144         -0.006   
+PCL-5 (PTSD)              +0.250**           —      +0.675***       +0.684***   +0.790***  +0.810***  +0.706***            +0.580***      +0.514***
+DASS Anxiety              +0.219*      +0.675***          —         +0.634***   +0.642***  +0.824***  +0.574***            +0.483***      +0.455***
+DASS Depression           +0.144       +0.684***    +0.634***             —     +0.762***  +0.912***  +0.474***            +0.397***      +0.382***
+DASS Stress               +0.263**     +0.790***    +0.642***       +0.762***         —    +0.920***  +0.536***            +0.399***      +0.408***
+DASS Total                +0.234*      +0.810***    +0.824***       +0.912***   +0.920***        —    +0.588***            +0.473***      +0.461***
+GHQ                       +0.166       +0.706***    +0.574***       +0.474***   +0.536***  +0.588***        —              +0.569***      +0.609***
+PSQI (Sleep Quality)      +0.144       +0.580***    +0.483***       +0.397***   +0.399***  +0.473***  +0.569***                  —        +0.808***
+ISI (Insomnia)            -0.006       +0.514***    +0.455***       +0.382***   +0.408***  +0.461***  +0.609***            +0.808***            —  
+
+
+───────────────────────────────────────────────────────────────────────────
+  A1b — Spearman ρ  (robustness check — use when residuals violate normality)
+  Significance: * p<.05  ** p<.01  *** p<.001
+───────────────────────────────────────────────────────────────────────────
+                     Exposure Index PCL-5 (PTSD) DASS Anxiety DASS Depression DASS Stress DASS Total        GHQ PSQI (Sleep Quality) ISI (Insomnia)
+Exposure Index                  —      +0.214*      +0.168          +0.185      +0.265**   +0.236*    +0.163               +0.033         -0.038   
+PCL-5 (PTSD)              +0.214*            —      +0.640***       +0.709***   +0.799***  +0.813***  +0.669***            +0.551***      +0.504***
+DASS Anxiety              +0.168       +0.640***          —         +0.571***   +0.662***  +0.769***  +0.541***            +0.430***      +0.427***
+DASS Depression           +0.185       +0.709***    +0.571***             —     +0.793***  +0.913***  +0.499***            +0.359***      +0.369***
+DASS Stress               +0.265**     +0.799***    +0.662***       +0.793***         —    +0.945***  +0.529***            +0.380***      +0.405***
+DASS Total                +0.236*      +0.813***    +0.769***       +0.913***   +0.945***        —    +0.572***            +0.425***      +0.431***
+GHQ                       +0.163       +0.669***    +0.541***       +0.499***   +0.529***  +0.572***        —              +0.567***      +0.606***
+PSQI (Sleep Quality)      +0.033       +0.551***    +0.430***       +0.359***   +0.380***  +0.425***  +0.567***                  —        +0.798***
+ISI (Insomnia)            -0.038       +0.504***    +0.427***       +0.369***   +0.405***  +0.431***  +0.606***            +0.798***            —  
+
+
+────────────────────────────────────────────────────────────────────────
+  A1c — Pearson r vs Spearman ρ comparison (upper triangle only)
+  Pair                                      Pearson r  Spearman ρ  Agreement
+  ──────────────────────────────────────── ──────────  ──────────  ─────────
+  Exposure Index × PCL-5 (PTSD)                0.25**      0.214*  ✓
+  Exposure Index × DASS Anxiety                0.219*       0.168  ✓
+  Exposure Index × DASS Depression              0.144       0.185  ✓
+  Exposure Index × DASS Stress                0.263**     0.265**  ✓
+  Exposure Index × DASS Total                  0.234*      0.236*  ✓
+  Exposure Index × GHQ                          0.166       0.163  ✓
+  Exposure Index × PSQI (Sleep Quality)         0.144       0.033  Δ≥0.10
+  Exposure Index × ISI (Insomnia)              -0.006      -0.038  ✓
+  PCL-5 (PTSD) × DASS Anxiety                0.675***     0.64***  ✓
+  PCL-5 (PTSD) × DASS Depression             0.684***    0.709***  ✓
+  PCL-5 (PTSD) × DASS Stress                  0.79***    0.799***  ✓
+  PCL-5 (PTSD) × DASS Total                   0.81***    0.813***  ✓
+  PCL-5 (PTSD) × GHQ                         0.706***    0.669***  ✓
+  PCL-5 (PTSD) × PSQI (Sleep Quality)         0.58***    0.551***  ✓
+  PCL-5 (PTSD) × ISI (Insomnia)              0.514***    0.504***  ✓
+  DASS Anxiety × DASS Depression             0.634***    0.571***  ✓
+  DASS Anxiety × DASS Stress                 0.642***    0.662***  ✓
+  DASS Anxiety × DASS Total                  0.824***    0.769***  ✓
+  DASS Anxiety × GHQ                         0.574***    0.541***  ✓
+  DASS Anxiety × PSQI (Sleep Quality)        0.483***     0.43***  ✓
+  DASS Anxiety × ISI (Insomnia)              0.455***    0.427***  ✓
+  DASS Depression × DASS Stress              0.762***    0.793***  ✓
+  DASS Depression × DASS Total               0.912***    0.913***  ✓
+  DASS Depression × GHQ                      0.474***    0.499***  ✓
+  DASS Depression × PSQI (Sleep Quality)     0.397***    0.359***  ✓
+  DASS Depression × ISI (Insomnia)           0.382***    0.369***  ✓
+  DASS Stress × DASS Total                    0.92***    0.945***  ✓
+  DASS Stress × GHQ                          0.536***    0.529***  ✓
+  DASS Stress × PSQI (Sleep Quality)         0.399***     0.38***  ✓
+  DASS Stress × ISI (Insomnia)               0.408***    0.405***  ✓
+  DASS Total × GHQ                           0.588***    0.572***  ✓
+  DASS Total × PSQI (Sleep Quality)          0.473***    0.425***  ✓
+  DASS Total × ISI (Insomnia)                0.461***    0.431***  ✓
+  GHQ × PSQI (Sleep Quality)                 0.569***    0.567***  ✓
+  GHQ × ISI (Insomnia)                       0.609***    0.606***  ✓
+  PSQI (Sleep Quality) × ISI (Insomnia)      0.808***    0.798***  ✓
+
+========================================================================
+  MATRIX A2 — ORDINAL × CONTINUOUS  (Spearman ρ ONLY)
+  Pearson r is NOT computed for these pairs — ordinal scale.
+  Ordinal vars: listen_time, listen_war_time, listen_week, listen_war, music_play, sing, dance, music_help_sleep
+  Continuous vars: exposure_index, pcl_score, dass_anx_score, dass_dep_score, dass_str_score, dass_total_score, ghq_score, psqi_total, isi_total
+========================================================================
+
+────────────────────────────────────────────────────────────────────────
+  A2 — Spearman ρ: Ordinal Music Variables × Continuous Outcomes
+  Significance: * p<.05  ** p<.01  *** p<.001  |  Pearson NOT computed
+────────────────────────────────────────────────────────────────────────
+                        Exposure Index PCL-5 (PTSD) DASS Anxiety DASS Depression DASS Stress DASS Total        GHQ PSQI (Sleep Quality) ISI (Insomnia)
+Daily Listen Time            -0.001       +0.207*      +0.204*         +0.058      +0.124     +0.130     +0.158               +0.267**       +0.297** 
+War Listening Time           -0.029       +0.059       +0.084          -0.131      -0.086     -0.069     -0.017               +0.203*        +0.179   
+Weekly Listening (days)      -0.033       -0.040       +0.080          -0.110      -0.115     -0.098     -0.014               +0.094         +0.119   
+Listened During War          -0.066       -0.054       +0.003          -0.205*     -0.168     -0.155     -0.052               +0.171         +0.138   
+Plays an Instrument          -0.144       -0.261**     -0.102          -0.207*     -0.195*    -0.186     -0.203*              -0.147         -0.227*  
+Singing                      -0.165       -0.313**     -0.161          -0.192*     -0.200*    -0.195*    -0.252**             -0.072         -0.199*  
+Dancing                      -0.120       -0.195*      -0.076          -0.247**    -0.150     -0.176     -0.138               -0.114         -0.150   
+Music Helps Sleep            +0.009       +0.094       +0.248**        +0.171      +0.035     +0.155     +0.159               +0.225*        +0.164   
+
+
+────────────────────────────────────────────────────────────────────────
+  A2 Detailed — Spearman ρ ranked by absolute magnitude
+  Ordinal Variable               Continuous Variable            ρ         p     n  sig
+  ────────────────────────────── ──────────────────────── ───────  ────────  ────  ───
+  Singing                        PCL-5 (PTSD)              -0.313    0.0010   107  **
+  Daily Listen Time              ISI (Insomnia)            +0.297    0.0020   106  **
+  Daily Listen Time              PSQI (Sleep Quality)      +0.267    0.0068   102  **
+  Plays an Instrument            PCL-5 (PTSD)              -0.261    0.0066   107  **
+  Singing                        GHQ                       -0.252    0.0089   107  **
+  Music Helps Sleep              DASS Anxiety              +0.248    0.0092   109  **
+  Dancing                        DASS Depression           -0.247    0.0095   109  **
+  Plays an Instrument            ISI (Insomnia)            -0.227    0.0188   107  *
+  Music Helps Sleep              PSQI (Sleep Quality)      +0.225    0.0225   103  *
+  Daily Listen Time              PCL-5 (PTSD)              +0.207    0.0334   106  *
+  Plays an Instrument            DASS Depression           -0.207    0.0324   107  *
+  Listened During War            DASS Depression           -0.205    0.0373   104  *
+  Daily Listen Time              DASS Anxiety              +0.204    0.0359   106  *
+  War Listening Time             PSQI (Sleep Quality)      +0.203    0.0436    99  *
+  Plays an Instrument            GHQ                       -0.203    0.0361   107  *
+  Singing                        DASS Stress               -0.200    0.0390   107  *
+  Singing                        ISI (Insomnia)            -0.199    0.0404   107  *
+  Plays an Instrument            DASS Stress               -0.195    0.0444   107  *
+  Singing                        DASS Total                -0.195    0.0437   107  *
+  Dancing                        PCL-5 (PTSD)              -0.195    0.0417   109  *
+  Singing                        DASS Depression           -0.192    0.0477   107  *
+  Plays an Instrument            DASS Total                -0.186    0.0555   107  
+  War Listening Time             ISI (Insomnia)            +0.179    0.0697   103  
+  Dancing                        DASS Total                -0.176    0.0664   109  
+  Listened During War            PSQI (Sleep Quality)      +0.171    0.0884   100  
+  Music Helps Sleep              DASS Depression           +0.171    0.0748   109  
+  Listened During War            DASS Stress               -0.168    0.0878   104  
+  Singing                        Exposure Index            -0.165    0.0901   107  
+  Music Helps Sleep              ISI (Insomnia)            +0.164    0.0890   109  
+  Singing                        DASS Anxiety              -0.161    0.0973   107  
+  Music Helps Sleep              GHQ                       +0.159    0.0986   109  
+  Daily Listen Time              GHQ                       +0.158    0.1057   106  
+  Listened During War            DASS Total                -0.155    0.1158   104  
+  Music Helps Sleep              DASS Total                +0.155    0.1084   109  
+  Dancing                        DASS Stress               -0.150    0.1189   109  
+  Dancing                        ISI (Insomnia)            -0.150    0.1188   109  
+  Plays an Instrument            PSQI (Sleep Quality)      -0.147    0.1435   101  
+  Plays an Instrument            Exposure Index            -0.144    0.1391   107  
+  Listened During War            ISI (Insomnia)            +0.138    0.1620   104  
+  Dancing                        GHQ                       -0.138    0.1509   109  
+  War Listening Time             DASS Depression           -0.131    0.1871   103  
+  Daily Listen Time              DASS Total                +0.130    0.1855   106  
+  Daily Listen Time              DASS Stress               +0.124    0.2060   106  
+  Dancing                        Exposure Index            -0.120    0.2133   109  
+  Weekly Listening (days)        ISI (Insomnia)            +0.119    0.2227   106  
+  Weekly Listening (days)        DASS Stress               -0.115    0.2415   106  
+  Dancing                        PSQI (Sleep Quality)      -0.114    0.2514   103  
+  Weekly Listening (days)        DASS Depression           -0.110    0.2604   106  
+  Plays an Instrument            DASS Anxiety              -0.102    0.2959   107  
+  Weekly Listening (days)        DASS Total                -0.098    0.3192   106  
+  Weekly Listening (days)        PSQI (Sleep Quality)      +0.094    0.3455   102  
+  Music Helps Sleep              PCL-5 (PTSD)              +0.094    0.3331   109  
+  War Listening Time             DASS Stress               -0.086    0.3895   103  
+  War Listening Time             DASS Anxiety              +0.084    0.3963   103  
+  Weekly Listening (days)        DASS Anxiety              +0.080    0.4133   106  
+  Dancing                        DASS Anxiety              -0.076    0.4334   109  
+  Singing                        PSQI (Sleep Quality)      -0.072    0.4750   102  
+  War Listening Time             DASS Total                -0.069    0.4910   103  
+  Listened During War            Exposure Index            -0.066    0.5067   104  
+  War Listening Time             PCL-5 (PTSD)              +0.059    0.5536   103  
+  Daily Listen Time              DASS Depression           +0.058    0.5542   106  
+  Listened During War            PCL-5 (PTSD)              -0.054    0.5862   104  
+  Listened During War            GHQ                       -0.052    0.5995   104  
+  Weekly Listening (days)        PCL-5 (PTSD)              -0.040    0.6839   106  
+  Music Helps Sleep              DASS Stress               +0.035    0.7163   109  
+  Weekly Listening (days)        Exposure Index            -0.033    0.7381   106  
+  War Listening Time             Exposure Index            -0.029    0.7705   103  
+  War Listening Time             GHQ                       -0.017    0.8650   103  
+  Weekly Listening (days)        GHQ                       -0.014    0.8834   106  
+  Music Helps Sleep              Exposure Index            +0.009    0.9268   109  
+  Listened During War            DASS Anxiety              +0.003    0.9777   104  
+  Daily Listen Time              Exposure Index            -0.001    0.9909   106  
+

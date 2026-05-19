@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Temp/lock files
+~$*
+
+# Old generated outputs
+sem_results/
+analysis_summary.txt
+
+# Old/draft scripts
+analysis.py
+analysis copy.py
+
+# Randomisation files
+*_randomization_allocation.csv
+randomization_allocation.csv
+randomization for production/
+production/
+
+# Numbers working file
+*.numbers
+
+# Hebrew-named Word docs (temp lock files already excluded by ~$*)
+נספח_שאלונים_למחקר_שינה_גרסה_4.0_24.7.25 - TC.docx
+nituch_statisty_full_v2.docx
