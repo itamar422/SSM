@@ -14,7 +14,7 @@
 
   exposure_index: 35 items summed
     mean=15.66  SD=4.83  min=7  max=29  n=110
-‏
+
   Missing values (listwise deletion applied per analysis):
 psqi_total           6
 listen_week          4
@@ -242,8 +242,8 @@ Music Helps Sleep            +0.009       +0.094       +0.248**        +0.171   
 Dep. Variable:           PCL-5 (PTSD)   R-squared:                       0.062
 Model:                            OLS   Adj. R-squared:                  0.054
 Method:                 Least Squares   F-statistic:                     7.191
-Date:                Tue, 19 May 2026   Prob (F-statistic):            0.00848
-Time:                        22:21:34   Log-Likelihood:                -152.04
+Date:                Wed, 20 May 2026   Prob (F-statistic):            0.00848
+Time:                        12:28:12   Log-Likelihood:                -152.04
 No. Observations:                 110   AIC:                             308.1
 Df Residuals:                     108   BIC:                             313.5
 Df Model:                           1                                         
@@ -271,8 +271,8 @@ Notes:
 Dep. Variable:         ISI (Insomnia)   R-squared:                       0.000
 Model:                            OLS   Adj. R-squared:                 -0.009
 Method:                 Least Squares   F-statistic:                  0.003717
-Date:                Tue, 19 May 2026   Prob (F-statistic):              0.951
-Time:                        22:21:34   Log-Likelihood:                -155.58
+Date:                Wed, 20 May 2026   Prob (F-statistic):              0.951
+Time:                        12:28:12   Log-Likelihood:                -155.58
 No. Observations:                 110   AIC:                             315.2
 Df Residuals:                     108   BIC:                             320.6
 Df Model:                           1                                         
@@ -300,8 +300,8 @@ Notes:
 Dep. Variable:         ISI (Insomnia)   R-squared:                       0.371
 Model:                            OLS   Adj. R-squared:                  0.365
 Method:                 Least Squares   F-statistic:                     63.60
-Date:                Tue, 19 May 2026   Prob (F-statistic):           1.71e-12
-Time:                        22:21:34   Log-Likelihood:                -130.11
+Date:                Wed, 20 May 2026   Prob (F-statistic):           1.71e-12
+Time:                        12:28:12   Log-Likelihood:                -130.11
 No. Observations:                 110   AIC:                             264.2
 Df Residuals:                     108   BIC:                             269.6
 Df Model:                           1                                         
@@ -329,8 +329,8 @@ Notes:
 Dep. Variable:     PSQI (Sleep Quality)   R-squared:                       0.336
 Model:                              OLS   Adj. R-squared:                  0.329
 Method:                   Least Squares   F-statistic:                     51.61
-Date:                  Tue, 19 May 2026   Prob (F-statistic):           1.14e-10
-Time:                          22:21:34   Log-Likelihood:                -125.77
+Date:                  Wed, 20 May 2026   Prob (F-statistic):           1.14e-10
+Time:                          12:28:12   Log-Likelihood:                -125.77
 No. Observations:                   104   AIC:                             255.5
 Df Residuals:                       102   BIC:                             260.8
 Df Model:                             1                                         
