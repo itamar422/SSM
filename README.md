@@ -114,3 +114,4 @@ The `results/` folder will be created automatically and all outputs will be save
 ### Missing value handling
 
 **Listwise deletion** is used throughout — no imputation is applied. Each analysis drops only the rows missing on the specific variables involved in that calculation. Only `psqi_total` has missing values (n = 6), so models involving `psqi_total` run on n = 104; all others use the full n = 110.
+
